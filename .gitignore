@@ -1,0 +1,38 @@
+# =========================
+# Python & Environments
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+myenv/
+venv/
+env/
+.env
+
+# =========================
+# IDEs & Editor Files
+# =========================
+.vscode/
+.ipynb_checkpoints/
+
+# =========================
+# Project Specific Data & Assets
+# =========================
+# Ignore raw datasets and large compressed features
+Flickr8k/
+*.npz
+clean_captions.json
+
+# Ignore model weights (Optional, but recommended)
+# Note: GitHub has a 100MB file limit. Your 22MB .keras model will fit, 
+# but ignoring it is standard practice for ML repositories.
+*.keras
+*.h5
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
